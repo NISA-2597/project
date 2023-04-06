@@ -1,0 +1,308 @@
+
+
+nav {
+  background-color: #c22333;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  width:auto;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+
+}
+
+li {
+  margin: 0 10px;
+  float: right;
+  background-attachment: fixed;
+  position: relative;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-weight: bold;
+  
+}
+
+a:hover {
+  background-color: #ed0c26;
+  background-attachment: fixed;
+}
+button{
+  background-color: cadetblue;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+}
+button:hover{
+  background-color: #555;
+}
+.image{
+  height: 1px;
+  width: 2px;
+}
+/*Home section*/
+.hero{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKYUDLoqzxs4lbK-sz7rGyeFK7ncBdlOm5CC6LBWmnBQ&usqp=CAU&ec=48600112");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+  padding: 5px;
+  margin-top: 10px;
+  
+ 
+  }
+.text-section{
+  color: antiquewhite;
+  font-style: inherit;
+  font-weight: bold;
+  border-width: 2px;
+}
+.button{
+  background-color: orangered;
+  font-weight: bold;
+  text-align: center;
+}
+/*About Section*/
+.head-text{
+  position: relative;
+
+}
+.text-on-image{
+  position: absolute;
+  right: 25%;
+  left: 35%;
+  bottom: 50%;
+  color: white;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+diversity-image{
+  position: relative;
+}
+.text-on-diversity{
+  position: absolute;
+  right: 25%;
+  left: 35%;
+  bottom: 50%;
+  color: black;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  opacity: 5% #6da5d6;
+}
+.flexiable{
+  height: 400px;
+  width: 200vh;
+}
+.text-under-image{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+.who:hover{
+  color: #ed0c26;
+  border-top-style: solid;
+}
+.vision:hover{
+  color: #ed0c26;
+  border-top-style: solid;
+}
+.management:hover{
+  color: #ed0c26;
+  border-top-style: solid;
+}
+.our:hover{
+  color: #ed0c26;
+  border-top-style: solid;
+}
+.diversity:hover{
+  color: #ed0c26;
+  border-top-style: solid;
+}
+.list{
+  flex-direction: row;
+  float: left;
+  padding-left: 35px;
+  margin: 5px;
+  justify-content: space-between;
+}
+.vision-image{
+ border-radius: 100%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ padding-top: 5px;
+
+}
+.background-vision{
+  background-color: #4287f5;
+
+   width: 100%;
+   float: right;
+   
+   padding: 5px;
+   margin: 20px;
+   justify-content: space-between;
+}
+.background-mission{
+  background-color: #0e2a57;
+  width: 100%;
+  float: left;
+  padding: 5px;
+  margin:20px;
+  justify-content: space-between;
+
+}
+.mission-image{
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 5px;
+}
+.text-vision{
+  text-align: center;
+  color: white;
+  font-style: arial;
+  text-decoration: underline #d4d013;
+}
+.text-vision-para{
+  text-align: center;
+  color: white;
+  font-style: arial;
+}
+
+
+.text-management{
+  
+  font-style: arial;
+  text-decoration: underline #d4d013;
+}
+.text-our{
+  font-style: arial;
+  text-decoration: underline #d4d013;
+}
+.background-management{
+  
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-journey{
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+.text-diversity{
+  font-style: arial;
+  text-decoration: underline #d4d013;
+}
+/*Navbar image section*/
+.imglogo{
+ float: right;
+ flex-direction: row;
+}
+
+
+/*contact us form css*/
+.contactbtn{
+  background-color: orangered;
+  border-radius: 50px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  flex-direction: row;
+}
+/*goggle image css*/
+.imgcontactus{
+  height: 80vh;
+  width: 200vh;
+  padding: 20px;
+}
+.imgform{
+  float: right;
+  font-size: larger;
+  margin-right: 300px;
+  
+}
+/*Button content in contact form */
+.sidebtn{
+  justify-content: space-between;
+  display: flex;
+}
+/*services*/
+.services-container{
+  /*background-image:url(https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?size=626&ext=jpg&ga=GA1.2.1335141860.1670910255&semt=sph);*/
+  height: 80px;
+  width: auto;
+  text-align: center;
+  background-color: #6da5d6;
+}
+
+.trasportation:hover{
+  color: #ed0c26;
+  border-top-style: solid;
+}
+.service-tex-color{
+  color: #647691;
+}
+.map-over-container{
+position: absolute;
+background: color #fffffe;;
+float: right;
+height: 20px;
+width: 50px;
+}
+.footer{
+  background-color: #c22333;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 200vh;
+
+}
+.card{
+  background-color: white;
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  opacity: 0.8;
+  margin-left: 780px;
+  margin-right: 20px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 4px 4px;
+  border-radius: 15px;
+}
+.text-container{
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.background-image{
+  background-color: #4287f5;
+  height: 100px;
+  width: 200vh;
+}
+
+
+  
+
+ 
